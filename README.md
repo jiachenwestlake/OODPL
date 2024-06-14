@@ -16,8 +16,9 @@ trl>=0.7.1
 ```
 
 ### Usage
-**Dataset**
-The datasets include Stanford Human Preferences Dataset [SHP](https://huggingface.co/datasets/stanfordnlp/SHP) 
+**Dataset**  
+The datasets include Stanford Human Preferences Dataset [SHP](https://huggingface.co/datasets/stanfordnlp/SHP)   
+The dataset can be download at [Dir](https://pan.baidu.com/s/1wcSm1hGxf13gbSu_Nk4OsA?pwd=jiac).
 
 **Training command**
 ```

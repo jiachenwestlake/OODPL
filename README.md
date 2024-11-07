@@ -1,9 +1,9 @@
 # OODPL
-Code for "[Generalizing reward modeling for out-of-distribution preference learning](https://arxiv.org/abs/2402.14760)"
+Code for "[Generalizing reward modeling for out-of-distribution preference learning](https://arxiv.org/abs/2402.14760)" in ECML PKDD'2024
 
 
 ### Introduction
-The code is built based on the open-source toolkit [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
+The code is built using the open-source toolkit [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
 
 ### Requirements
 ```
@@ -17,8 +17,8 @@ trl>=0.7.1
 
 ### Usage
 **Dataset**  
-The datasets include Stanford Human Preferences Dataset [SHP](https://huggingface.co/datasets/stanfordnlp/SHP)   
-The dataset can be download at [Dir](https://pan.baidu.com/s/1wcSm1hGxf13gbSu_Nk4OsA?pwd=jiac).
+The datasets include the Stanford Human Preferences Dataset [SHP](https://huggingface.co/datasets/stanfordnlp/SHP)   
+The dataset can be downloaded at [Dir](https://pan.baidu.com/s/1wcSm1hGxf13gbSu_Nk4OsA?pwd=jiac).
 
 **Training command**
 ```
@@ -65,10 +65,12 @@ CUDA_VISIBLE_DEVICES=5 python src/train_bash.py \
 
 ### Citation
 ```
-@article{jia2024generalizing,
+@inproceedings{jia2024generalizing,
   title={Generalizing Reward Modeling for Out-of-Distribution Preference Learning},
   author={Jia, Chen},
-  journal={arXiv preprint arXiv:2402.14760},
-  year={2024}
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={107--124},
+  year={2024},
+  organization={Springer}
 }
 ```
